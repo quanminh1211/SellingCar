@@ -1,0 +1,43 @@
+.FAQ-container {
+    background-color: rgba(11, 12, 16, 1);
+}
+
+.FAQ-body {
+    padding-top: 115px;
+    padding-left: 124px;
+}
+
+.titleFAQ h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.titleFAQ p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.listQuestion li {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    /* line-height: 28.8px; */
+    list-style-type: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.listQuestion li:hover {
+    color: rgba(0, 124, 199, 1);
+    cursor: pointer;
+}
+
+.questionFAQ {
+    width: 190px;
+    height: 308px;
+    background-color: rgba(18, 35, 46, 1);
+    margin-top: 50px;
+}

@@ -1,0 +1,17 @@
+.formInput input {
+    width: 535px;
+    height: 48px;
+    border: none;
+    background-color: rgba(21, 40, 54, 1);
+    margin: 25px;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.formInput input::placeholder {
+    color: #8f8f8f;
+    font-size: 18px;
+    padding-left: 20px;
+
+}

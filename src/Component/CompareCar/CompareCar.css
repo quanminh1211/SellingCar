@@ -1,0 +1,19 @@
+.ItemCompare {
+    min-width: 400px;
+    height: 510px;
+    display: flex;
+    gap: 200px;
+}
+
+.CompareLst {
+    padding-top: 150px;
+    padding-left: 6%;
+}
+
+.CompareLst h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+

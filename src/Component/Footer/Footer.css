@@ -1,0 +1,45 @@
+.nav-footer p {
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 24px;
+    line-height: 16,8px;
+    font-weight: 600;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.footer {
+    background-color: rgba(18, 35, 46, 1);
+    padding-bottom: 20px;
+}
+
+.footer .titleFooter {
+    padding-left: 45%;
+    padding-top: 20px;
+}
+
+.footer .line {
+    width: 1300px;
+    height: 2px;
+    background-color: rgb(141, 162, 174); 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 7%;
+}
+
+.nav3 p {
+    max-width: 150px;
+}
+
+.footer p {
+    font-size: 18px;
+}
+
+.iconFooter {
+    display: flex;
+    gap: 15px;
+}

@@ -1,0 +1,21 @@
+.selectoption {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 230px;
+}
+
+.selectOption-box {
+    border: none;
+    appearance: none;   
+    padding: 0 30px 0 15px;
+    width: 100%;
+    color: #c9c4c4;
+    background-color: rgba(21, 40, 54,1);
+    font-size: 20px;
+    max-height: 50px;
+}
+
+select:focus {
+    outline: none;
+}

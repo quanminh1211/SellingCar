@@ -1,0 +1,35 @@
+.list_review {
+    display: grid;
+    grid-template-columns: repeat(2, 560px);
+    column-gap: 20px;
+    row-gap: 15px;
+    margin-left: 10%;
+
+}
+
+.title-review  {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    margin-left: 10%;
+    max-width: 200px;
+    justify-content: space-between;
+}
+
+.title-review p {
+    border-bottom: 2px solid rgba(0, 124, 199, 1);
+    opacity: 50%;
+}
+
+.title-review p:hover {
+    opacity: 100%;
+    border-bottom: 2px solid rgba(0, 124, 199, 1);
+    cursor: pointer;
+}
+
+.review-container {
+    padding-top: 100px;
+}

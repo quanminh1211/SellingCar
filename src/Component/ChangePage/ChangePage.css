@@ -1,0 +1,26 @@
+.pageNumber{
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    padding-top: 7px;
+    border: 1px solid rgba(0, 124, 199, 1);
+}
+
+.pageNumber:hover {
+    background-color: rgba(0, 124, 199, 0.5);
+    cursor: pointer;
+}
+
+.change-container {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding-top: 30px;
+    width: 800px;
+    justify-content: center;
+}
+
+.change-container img:hover {
+    cursor: pointer;
+}

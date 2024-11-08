@@ -1,0 +1,42 @@
+.sort-container  p {
+    color: #fff;
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.sort {
+    display: flex;
+    gap: 15px;
+}
+
+.sort-container {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.sort-box {
+    border: none;
+    appearance: none;
+    padding: 0 30px 0 15px;
+    width: 150px;
+    color: #fff;
+    background-color: rgba(21, 40, 54, 1);
+    font-size: 20px;
+    width: 234px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sort-btn {
+    background-color: #2873ff;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+}

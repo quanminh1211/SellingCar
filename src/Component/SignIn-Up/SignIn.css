@@ -1,0 +1,78 @@
+.container {
+    background-color: #1b2a3a;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 400px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.5rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .label {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #394b59;
+    background-color: #1f2e3d;
+    color: #fff;
+  }
+  
+  .passwordContainer {
+    position: relative;
+    width: 100%;
+  }
+  
+  .togglePassword {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #1f6fec;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .loginText {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .link {
+    color: #1f6fec;
+    text-decoration: none;
+  }
+
+  .container input:active {
+    outline: none;
+    background-color: #1f2e3d;
+  }
+  

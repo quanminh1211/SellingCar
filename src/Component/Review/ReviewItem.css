@@ -1,0 +1,32 @@
+.reviewItem-container {
+    display: flex;
+    gap: 20px;
+    width: 566px;
+    background-color: rgba(18, 35, 46, 1);
+    color: #fff;
+    border: 1px solid
+}
+
+.reviewItem-nameCar {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: rgba(0, 124, 199, 1);
+}
+
+.reviewItem-info p {
+    max-width: 320px;
+}
+
+.group-info {
+    padding: 24px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.userReview {
+    display: flex;
+    gap: 10px;
+}

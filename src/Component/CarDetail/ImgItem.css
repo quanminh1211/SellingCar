@@ -1,0 +1,10 @@
+.img-item img {
+    width: 142px;
+    height: 99px;
+}
+
+.img-item img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    border: 1px solid rgb(115, 115, 230);
+}

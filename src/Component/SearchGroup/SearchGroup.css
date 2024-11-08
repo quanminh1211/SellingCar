@@ -1,0 +1,46 @@
+.searchGroup {
+    width: 1000px;
+    height: 220px;
+    background-color: rgba(7, 22, 32, 1);
+    margin-left: 17%;
+}
+
+.searchTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.searchTop a {
+    color: rgba(0, 124, 199, 1);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 50%;
+    border-bottom: 2px none rgba(0, 124, 199, 1);
+}
+
+.searchTop a:hover {
+    opacity: 100%;
+    border-bottom: 2px solid rgba(0, 124, 199, 1);
+}
+
+.searchBottom {
+    padding: 30px 15px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.select {
+    display: flex;
+    justify-content: space-between;
+}

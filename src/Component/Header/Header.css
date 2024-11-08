@@ -1,0 +1,55 @@
+.header-home {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    align-items: center;
+}
+
+.header-home a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menuItem2 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.menuItem1 {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.header-home select {
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #000;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.select-box {
+    border: none;
+    appearance: none;   
+    padding: 0 30px 0 15px;
+    width: 100%;
+    color: #fff;
+    background-color: #2873ff;
+    font-size: 20px;
+}
+
+select:focus {
+    outline: none;
+}

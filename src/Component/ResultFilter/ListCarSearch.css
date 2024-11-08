@@ -1,0 +1,27 @@
+.item-container p {
+    color: #fff;
+}
+
+.item-container {
+    display: flex;
+    width: 800px;
+    height: 246px;
+    margin-top: 40px;
+    border: 1px solid rgba(0, 124, 199, 1);
+    border-radius: 5px;
+}
+
+.item-container .nameCar {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.item-container span {
+    color: #fff;
+}
+
+.parameter {
+    display: flex;
+    gap: 20px;
+}
